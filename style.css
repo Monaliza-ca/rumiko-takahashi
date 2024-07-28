@@ -50,11 +50,13 @@ padding: 1%;
     padding: 2%;
     display: flex;
     align-items: center;
+   flex-direction: row;
 }
 
 .img-urusei {
-max-width: 35%;
+max-width: 290%;
 }
+
 
 .ranma12 {
     background-color: rgba(245, 245, 220, 0.568);
