@@ -50,33 +50,51 @@ padding: 1%;
     padding: 2%;
     display: flex;
     align-items: center;
-   flex-direction: row;
+    flex-direction: row;
 }
 
 .img-urusei {
-max-width: 290%;
+    max-width: 190px;
 }
 
+.figureContainer figcaption {
+    text-wrap: nowrap;
+}
+
+.urusei-yatsura .texto {
+    margin: 1rem;
+}
 
 .ranma12 {
     background-color: rgba(245, 245, 220, 0.568);
     padding: 2%;
     margin-top: 2%;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
 }
 
 .img-ranma {
-    max-width: 35%;
+    max-width: 190px;
 }
 
 .inuyasha {
     background-color: rgba(245, 245, 220, 0.568);
     padding: 2%;
     margin-top: 2%;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
 }
 
 .img-inuyasha {
-    max-width: 35%;
+    max-width: 190px;
 }
 
-
+.figureContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 
